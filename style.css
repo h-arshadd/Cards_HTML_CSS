@@ -1,0 +1,44 @@
+body{
+    background-color: gray;
+    display:flex;
+}
+
+.card{
+    background-color: white;
+    border: 2px solid white;
+    height:500px;
+    width: 280px;
+    border-radius: 8px;
+    padding: 10px;
+    margin:10px;
+}
+
+.image img {
+    padding: 1px;
+    display: block;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.buttons span{
+    margin:6px;
+    padding: 5px;
+    border:2px solid rgb(234, 233, 233);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.text{
+    margin:10px;
+}
+
+.button1 button{
+    background-color: rgb(175, 240, 219);
+    color:blue;
+    border: 2px solid white;
+    border-radius: 40px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    display:block;
+}
